@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Core;
+namespace App\Router;
 
 class Router
 {
@@ -21,7 +21,6 @@ class Router
         string $path
     ): void {
         if (isset($this->routes[$method][$path])) {
-
             $action = $this->routes[$method][$path];
 
             $action();
