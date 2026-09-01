@@ -2,7 +2,7 @@
     "name": "aminata-sy/projet2",
     "autoload": {
         "psr-4": {
-            "AminataSy\\Projet2\\": "src/"
+            "App\\": "src/"
         }
     },
     "authors": [
@@ -13,3 +13,4 @@
     ],
     "require": {}
 }
+
